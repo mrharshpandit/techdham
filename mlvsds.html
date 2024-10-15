@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./css/content.css">
+        <link rel="stylesheet" href="./css/DataScience.css">
+    </head>
+    <body>
+        <div id="layout"> </div>
+
+        <!-- content below -->
+         
+        <div class=" main" style="padding-top: 150px;">
+            <h1>Data Science vs Data Analytics vs Machine Learning vs AI</h1>
+            <p>In today’s world, data plays a vital role in how we make decisions and solve problems. This blog will explain what Data Science, Data Analytics, Machine Learning, and Artificial Intelligence are, and how they differ from each other.</p>
+            
+            <div class="section" id="data-science">
+                <h2>What is Data Science?</h2>
+                <p>Data Science is an interdisciplinary field that combines various techniques and theories from statistics, mathematics, and computer science to analyze and interpret complex data. It involves collecting, processing, and analyzing large datasets to extract valuable insights.</p>
+                <div class="example">
+                    <strong>Example:</strong>
+                    <p>Imagine a company wants to understand customer preferences. Data scientists gather data from customer purchases, social media, and surveys to find trends and make informed business decisions.</p>
+                </div>
+            </div>
+            
+            <div class="section" id="data-analytics">
+                <h2>What is Data Analytics?</h2>
+                <p>Data Analytics focuses specifically on examining datasets to draw conclusions. It helps organizations make sense of historical data, identify patterns, and improve decision-making processes. Data analytics often uses statistical tools and techniques to analyze data.</p>
+                <div class="example">
+                    <strong>Example:</strong>
+                    <p>A retailer analyzes sales data from the previous year to identify which products sold best during the holiday season. This helps them plan for inventory and marketing strategies.</p>
+                </div>
+            </div>
+        
+            <div class="section" id="machine-learning">
+                <h2>What is Machine Learning?</h2>
+                <p>Machine Learning is a subset of artificial intelligence (AI) that allows computer systems to learn from data and improve their performance over time without being explicitly programmed. Machine learning algorithms use patterns in data to make predictions or decisions.</p>
+                <div class="example">
+                    <strong>Example:</strong>
+                    <p>A recommendation system on a streaming platform suggests movies based on your viewing history. It learns from your choices to provide personalized suggestions.</p>
+                </div>
+            </div>
+        
+            <div class="section" id="ai">
+                <h2>What is Artificial Intelligence (AI)?</h2>
+                <p>Artificial Intelligence refers to the simulation of human intelligence processes by machines. This includes learning (acquiring information), reasoning (using rules to reach conclusions), and self-correction. AI can perform tasks that usually require human intelligence.</p>
+                <div class="example">
+                    <strong>Example:</strong>
+                    <p>Voice assistants like Siri or Alexa use AI to understand and respond to user commands, providing information and performing tasks like setting reminders or playing music.</p>
+                </div>
+            </div>
+            <div style="max-width:100%;"> 
+                <img src="./images/mlvsai.png" alt="">
+            </div>
+        
+            <div class="comparison">
+                <h2>Comparison of Data Science, Data Analytics, Machine Learning, and AI</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aspect</th>
+                            <th>Data Science</th>
+                            <th>Data Analytics</th>
+                            <th>Machine Learning</th>
+                            <th>Artificial Intelligence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Definition</td>
+                            <td>Interdisciplinary field for data insights</td>
+                            <td>Analyzing data to draw conclusions</td>
+                            <td>Algorithms that learn from data</td>
+                            <td>Machines simulating human intelligence</td>
+                        </tr>
+                        <tr>
+                            <td>Focus</td>
+                            <td>Data interpretation and insights</td>
+                            <td>Historical data analysis</td>
+                            <td>Predictive modeling and learning</td>
+                            <td>Human-like problem-solving</td>
+                        </tr>
+                        <tr>
+                            <td>Tools Used</td>
+                            <td>Python, R, SQL, Hadoop</td>
+                            <td>Excel, SQL, Tableau</td>
+                            <td>TensorFlow, Scikit-learn, Keras</td>
+                            <td>Natural Language Processing, Robotics</td>
+                        </tr>
+                        <tr>
+                            <td>Applications</td>
+                            <td>Business intelligence, research, strategy</td>
+                            <td>Performance improvement, reporting</td>
+                            <td>Recommendations, image recognition</td>
+                            <td>Chatbots, self-driving cars, smart assistants</td>
+                        </tr>
+                        <tr>
+                            <td>Complexity</td>
+                            <td>High (requires knowledge of multiple fields)</td>
+                            <td>Moderate (focus on data patterns)</td>
+                            <td>Moderate to high (depends on algorithm)</td>
+                            <td>High (involves complex systems and reasoning)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 10px;">
+                <a href="./DataScience.html" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-decoration: none; cursor: pointer;">Prev</a>
+              
+                <a href="#" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-decoration: none; cursor: pointer;">Next</a>
+              </div>
+              <div id="layout1"></div>
+            
+        </div>
+        
+        
+        <!--  -->
+
+          
+          <script src="" async defer></script>
+          <script>
+              fetch('nav.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('layout').innerHTML = data);
+   
+              fetch('footer.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('layout1').innerHTML = data);
+            </script>
+  
+
+    </body>
+</html>
